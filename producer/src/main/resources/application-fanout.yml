@@ -1,0 +1,3 @@
+exchange:
+  fanout:
+    name: my.fanout

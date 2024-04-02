@@ -1,0 +1,16 @@
+spring:
+  rabbitmq:
+    username: rabbit
+    password: 12345
+    host: localhost
+    port: 5672
+  application:
+    name: consumer-1
+  profiles:
+    active: fanout
+queue:
+  name: my.queue
+exchange:
+  fanout:
+    name: my.fanout
+
